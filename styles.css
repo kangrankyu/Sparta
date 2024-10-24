@@ -1,0 +1,89 @@
+ @import url(modal.css);
+
+.movie-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 200px;
+  overflow: hidden;
+  text-align: left;
+  cursor: pointer;
+}
+
+
+#movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.movie-card img {
+  width: 100%;
+}
+
+
+.movie-card h3 {
+  font-size: 18px;
+  margin: 10px;
+}
+.movie-card p {
+  font-size: 20px;
+  margin: 10px;
+  color: #555;
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  margin-top: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+h1 {
+  margin: 0;
+}
+#showBookmarksBtn{
+  font-size: 25px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+button:hover {
+  background-color: #555;
+}
+
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+
+
+#showBookmarksBtn {
+  margin-top: 10px;
+}
